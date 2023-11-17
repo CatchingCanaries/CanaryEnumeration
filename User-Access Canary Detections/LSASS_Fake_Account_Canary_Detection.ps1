@@ -15,7 +15,7 @@ foreach ($event in $events) {
             	Write-Host "`n$($event.ReplacementStrings[1]) " -ForegroundColor Green -NoNewLine 
 		Write-Host "created deception user " -NoNewLine
 		Write-Host "$($event.ReplacementStrings[23])\$($event.ReplacementStrings[22])" -ForegroundColor Red
-            Write-Host ''
+        	Write-Host ''
         }
     }
 }

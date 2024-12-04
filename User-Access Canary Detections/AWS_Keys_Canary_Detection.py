@@ -12,13 +12,15 @@ class bcolors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
-# Multiple posts on pastebin / twitter
+# Multiple posts on pastebin / twitter / extracted from vendor
 CanaryVendorAccountIDs = (
     '171436882533',
     '717712589309',
     '534261010715',
     '597260573541',
-    '052310077262'
+    '052310077262',
+    '266735846894',
+    '816111294991'
 )
 
 # Single post on pastebin / twitter

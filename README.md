@@ -21,7 +21,13 @@ Anti-Deception: Catching the Canaries
       2. Import-Module MSOffice_Remote_Resource_Canary_Detection.psm1
       3. EnumCanary <potential_canary_file.(xlsx|docx|pptx)>
       4. Look for Red or Green in the output... or read it
-  
+
+    MSOffice_Remote_Resource_Canary_Detection.py:
+    
+      1. Python
+      2. python3 MSOffice_Remote_Resource_Canary_Detection.py <FILENAME.(xlsx|docx|pptx)>
+      3. Look for Red or Green in the output... or read it
+
   _User-Access Canary Detections_
   
     AWS_Keys_Canary_Detection.py:
